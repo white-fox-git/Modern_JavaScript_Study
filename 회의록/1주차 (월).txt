@@ -1,0 +1,11 @@
+[ 2장 ]
+
+- spread : White
+
+- let, const : 부처 
+
+- destructring : 거머리
+
+[ 4장 ]
+
+자유롭게 코드 작성하여 Push
