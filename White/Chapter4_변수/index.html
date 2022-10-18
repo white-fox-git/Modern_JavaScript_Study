@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter4 : 변수</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h2>모던 자바스크립트 : 변수</h2>
+    </header>
+    <main>
+        <h3>변수 선언</h3>
+        <img src="./asset/변수 선언.png" />
+        <div class="box">
+            <span>var : </span><span id="variable_1"></span>
+            <br>
+            <span>let : </span><span id="variable_2"></span>
+            <br>
+            <span>const : </span><span id="variable_3"></span>
+            <h4>✔ Check</h4>
+            <p>- undifne : 자바스크립트에서 제공하는 원시 타입의 값</p>
+            <p>- 변수 이름을 비롯한 모든 식별자는 실행 컨텍스트에 등록된다.</p>
+            <p>- 실행 컨텍스트 : 자바스크립트 엔진이 소스코드를 평가하고 실행하기 위해 필요한 환경을 제공하고 코드의 실행결과를 관리하는 영역</p>
+        </div>
+        <h3>변수 선언의 실행 시점과 호이스팅</h3>
+        <img src="./asset/호이스팅.png" />
+        <div class="box">
+            <span>호이스팅된 변수 : </span><span id="hoisting"></span>
+            <h4>✔ Check</h4>
+            <span>변수 선언문보다 변수를 참조하는 코드가 앞에 있지만 JS코드는 인터프리터 언어임에도 불구하고 참조 에러가 발생하지 않고 undefine을 출력한다.</span>
+            <p>- 변수 선언이 소스코드가 한 줄씩 순차적으로 실행되는 시점(런타임)이 아닌 그 이전 단게에서 실행되기 때문</p>
+            <p>- 자바스크립트 엔진은 변수 선언을 포함한 모든 선언문을 소스코드에서 찾아내 먼저 실행한다.</p>
+            <p>- 호이스팅 : 선언문이 코드의 선두로 끌어 올려진 것 처럼 동작하는 자바스크립트 고유의 특징</p>
+            <p>- var, let, const, function, function*, class등 모든 선언문이 런타임 이전 단계에서 먼저 실행된다.</p>
+        </div>
+        <h3>식별자 네이밍 규칙</h3>
+        <img src="./asset/네이밍 규칙.png" />
+        <div class="box">
+            <span>Camel Case : </span><span id="camelCase"></span>
+            <br>
+            <span>Snake Case : </span><span id="snake_case"></span>
+            <br>
+            <span>Pascal Case : </span><span id="PascalCase"></span>
+            <h4>✔ Check</h4>
+            <span>일관성을 유지한다면 어떤 네이밍 컨벤션을 사용해도 좋지만 일반적으로 변수나 함수의 이름에는 카멜 케이스를, 생성자 함수, 클래스의 이름에는 파스칼 케이스를 사용한다.</span>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
