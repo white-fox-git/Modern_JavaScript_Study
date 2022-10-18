@@ -11,7 +11,7 @@ document.querySelector('#variable_3').innerHTML = variable_3;
 // 호이스팅
 
 document.querySelector('#hoisting').innerHTML = hoisting;
-var hoisting = 'hoisting'; // 변수 호이스팅
+var hoisting; // 변수 호이스팅
 
 // 네이밍 규칙
 
