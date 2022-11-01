@@ -70,3 +70,93 @@
 <br>
 
 ## NaN === NaN; => false
+
+<br>
+<br>
+
+# 11/02(수) 8장, 9장, 10장
+
+## 레이블 문이란 ? → 식별자가 붙은 문
+
+<br>
+
+```typescript
+foo: console.log("foo"); // foo라는 레이블 식별자가 붙은 레이블 문
+```
+
+<br>
+
+## - 레이블 문은 프로그램의 실행 순서를 제어하는데 사용
+
+## - `case` 문과 `default` 문도 레이블 문이다.
+
+## - 레이블 문을 탈출하려면 `break` 문에 레이블 식별자를 지정한다.
+
+```typescript
+foo: {
+  console.log(1);
+  break foo; // foo 레이블 블록문을 탈출
+  console.log(2);
+}
+```
+
+<br>
+
+## 메소드 - 객체 안에 정의된 함수
+
+<br>
+
+## 프로퍼티 접근
+
+<br>
+
+## 1 .(마침표)를 이용하는 마침표 표기법(dot notation)
+
+## 2. [ ]를 이용하는 대괄호 표기법(braket nontation)
+
+<br>
+
+```typescript
+obj.firstName; // 마침표 표기법
+obj["first-name"]; // 대괄호 표기법
+```
+
+<br>
+
+## for-in문 - 객체 프로퍼티 루프 수행
+
+<br>
+
+## for of문 - 배열 순회
+
+<br>
+
+## 프로퍼티 삭제
+
+### delete 연산자를 사용하여 프로퍼티를 삭제 가능
+
+```typescript
+const obj = {
+  color: "black",
+  width: "100px",
+  height: "100px",
+};
+delete obj.color;
+console.log(obj); // {width: "100px", height: "100px"}
+```
+
+<br>
+
+## 메소드 축약 표현
+
+```typescript
+const obj = {
+  oldHello: function () {
+    console.log("hello!");
+  }, // 옛날 버전
+
+  newHello() {
+    console.log("hello!");
+  }, // 새로운 버전 -> 이렇게 사용하자
+};
+```
