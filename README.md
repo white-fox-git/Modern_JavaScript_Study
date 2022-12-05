@@ -8,7 +8,7 @@ _since 2022.10.17_
 
 [GMR's Notion](https://www.notion.so/c0575ede535543ca9e3fc487b9902978)
 
-## [Lina's Notion](https://polarized-wallflower-e8a.notion.site/151989992c814c449db3c4fa501081c2?v=cde8c750a6ec4347b408d07887473294)
+[Lina's Notion](https://polarized-wallflower-e8a.notion.site/151989992c814c449db3c4fa501081c2?v=cde8c750a6ec4347b408d07887473294)
 
 ### 🖋진행 방식
 
